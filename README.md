@@ -1,4 +1,4 @@
-# Fortnix AB API Client for Javascript
+# Fortnox AB API Client for Javascript
 Unofficial client for the [Fortnox AB API](https://developer.fortnox.se/documentation/).
 
 ***
