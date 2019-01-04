@@ -43,7 +43,7 @@ const resultInvoices = await fortnoxAbApiJsClient.invoices.list({
 
 ## Resrouces & Actions available (at the moment):
 
-**IMPORTANT:** All the inputs/parameters should be used according to the official documentation (case sensitive). In addition you should to provide the `clientSecret` and `accessToken` for all methods by attaching in the parameters.
+**IMPORTANT:** All the inputs/parameters should be used according to the official documentation (case sensitive).
 
 * Invoices
   * create
