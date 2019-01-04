@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/gh/ricardodantas/fortnoxab-api-js-client/tree/master.svg?style=svg)](https://circleci.com/gh/ricardodantas/fortnoxab-api-js-client/tree/master)
+
+
 # Fortnox AB API Client for Javascript
 Unofficial client for the [Fortnox AB API](https://developer.fortnox.se/documentation/).
 
