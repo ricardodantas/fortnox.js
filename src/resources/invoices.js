@@ -6,18 +6,18 @@
 import request from '../request.js';
 const resourcePath = 'invoices';
 
-const invoice = {};
+const invoices = {};
 
-invoice.create = (invoiceData) => request.post(`/${resourcePath}`, { Invoice: invoiceData });
+invoices.create = (invoiceData) => request.post(`/${resourcePath}`, { Invoice: invoiceData });
 
-invoice.update = (invoiceId, invoiceData) => request.put(`/${resourcePath}/${invoiceId}`, { Invoice: invoiceData });
+invoices.update = (invoiceId, invoiceData) => request.put(`/${resourcePath}/${invoiceId}`, { Invoice: invoiceData });
 
-invoice.cancel = (invoiceId) => request.get(`/${resourcePath}/${invoiceId}/cancel`);
+invoices.cancel = (invoiceId) => request.get(`/${resourcePath}/${invoiceId}/cancel`);
 
-invoice.get = (invoiceId) => request.get(`/${resourcePath}/${invoiceId}`);
+invoices.get = (invoiceId) => request.get(`/${resourcePath}/${invoiceId}`);
 
-invoice.list = () => request.get(`/${resourcePath}`);
+invoices.list = () => request.get(`/${resourcePath}`);
 
-invoice.email = (invoiceId, emailInformation) => request.get(`/${resourcePath}/${invoiceId}/email`, { params: emailInformation });
+invoices.email = (invoiceId, emailInformation) => request.get(`/${resourcePath}/${invoiceId}/email`, { params: emailInformation });
 
-export default invoice;
+export default invoices;

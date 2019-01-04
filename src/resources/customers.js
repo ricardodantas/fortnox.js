@@ -7,14 +7,14 @@ import request from '../request.js';
 
 const resourcePath = 'customers';
 
-const customer = {};
+const customers = {};
 
-customer.create = (customerData) => request.post(`/${resourcePath}`, { Customer: customerData });
+customers.create = (customerData) => request.post(`/${resourcePath}`, { Customer: customerData });
 
-customer.update = (customerId, customerData) => request.put(`/${resourcePath}/${customerId}`, { Customer: customerData });
+customers.update = (customerId, customerData) => request.put(`/${resourcePath}/${customerId}`, { Customer: customerData });
 
-customer.get = (customerId) => request.get(`/${resourcePath}/${customerId}`);
+customers.get = (customerId) => request.get(`/${resourcePath}/${customerId}`);
 
-customer.list = () => request.get(`/${resourcePath}`);
+customers.list = () => request.get(`/${resourcePath}`);
 
-export default customer;
+export default customers;

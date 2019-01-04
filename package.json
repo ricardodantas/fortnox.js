@@ -2,9 +2,9 @@
   "name": "fortnoxab-api-js-client",
   "version": "1.0.0",
   "description": "A Fortnox AB API client wrapper. ",
-  "main": "lib/index.js",
+  "main": "lib/fortnoxab-api-js-client.js",
   "scripts": {
-    "build": "rm -fr ./lib && babel src -d lib",
+    "build": "rm -fr ./lib && webpack",
     "lint": "eslint .",
     "test": "jest"
   },
@@ -37,7 +37,9 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jest": "^22.1.2",
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0"
   },
   "eslintIgnore": [
     "coverage/",

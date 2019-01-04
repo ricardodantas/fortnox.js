@@ -1,2 +1,2 @@
-export { customers } from './customers.js';
-export { invoices } from './invoices.js';
+export { default as customers } from './customers.js';
+export { default as invoices } from './invoices.js';

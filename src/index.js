@@ -1,9 +1,9 @@
 import authorization from './authorization.js';
 import * as resources from './resources';
 
-const fortnoxAbApiClient = {
+const fortnoxAbApiJsClient = {
   ...resources,
   authorization
 };
 
-export default fortnoxAbApiClient;
+export default fortnoxAbApiJsClient;
