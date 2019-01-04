@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/ricardodantas/fortnoxab-api-js-client/tree/master.svg?style=svg)](https://circleci.com/gh/ricardodantas/fortnoxab-api-js-client/tree/master)
+[![CircleCI](https://circleci.com/gh/ricardodantas/fortnoxab-api-js-client/tree/master.svg?style=svg)](https://circleci.com/gh/ricardodantas/fortnoxab-api-js-client/tree/master) [![Maintainability](https://api.codeclimate.com/v1/badges/fe4a7c4c729932ce9e87/maintainability)](https://codeclimate.com/github/ricardodantas/fortnoxab-api-js-client/maintainability)
 
 
 # Fortnox AB API Client for Javascript
