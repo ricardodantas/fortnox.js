@@ -4,6 +4,7 @@
   "description": "A Fortnox AB API client wrapper. ",
   "main": "lib/index.js",
   "scripts": {
+    "build": "rm -fr ./lib && babel src -d lib",
     "lint": "eslint .",
     "test": "jest"
   },
@@ -26,18 +27,28 @@
     "axios": "^0.18.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "babel-preset-minify": "^0.5.0",
     "eslint": "^5.11.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.1.2",
     "jest": "^23.6.0"
   },
   "eslintIgnore": [
     "coverage/",
-    "__tests__/",
+    "lib/",
     "node_modules/"
   ],
   "jest": {
     "verbose": true,
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    },
     "testPathIgnorePatterns": [
       "node_modules/",
       "__mocks__",
@@ -53,7 +64,7 @@
       }
     },
     "collectCoverageFrom": [
-      "lib/**/*.{js,jsx}"
+      "./src/**/*.{js}"
     ]
   }
 }

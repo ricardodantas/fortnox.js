@@ -3,7 +3,8 @@
  * https://developer.fortnox.se/documentation/resources/customers/
  */
 
-const request = require('../request.js');
+import request from '../request.js';
+
 const resourcePath = 'customers';
 
 const customer = {};
@@ -16,4 +17,4 @@ customer.get = (customerId) => request.get(`/${resourcePath}/${customerId}`);
 
 customer.list = () => request.get(`/${resourcePath}`);
 
-module.exports = customer;
+export default customer;

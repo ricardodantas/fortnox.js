@@ -3,7 +3,7 @@
  * https://developer.fortnox.se/documentation/resources/invoices/
  */
 
-const request = require('../request.js');
+import request from '../request.js';
 const resourcePath = 'invoices';
 
 const invoice = {};
@@ -20,4 +20,4 @@ invoice.list = () => request.get(`/${resourcePath}`);
 
 invoice.email = (invoiceId, emailInformation) => request.get(`/${resourcePath}/${invoiceId}/email`, { params: emailInformation });
 
-module.exports = invoice;
+export default invoice;
