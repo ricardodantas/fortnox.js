@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "jest"
+    "test": "npm run lint && jest"
   },
   "repository": "git+ssh://git@github.com/ricardodantas/fortnoxab-api-js-client.git",
   "keywords": [
@@ -29,6 +29,27 @@
     "eslint": "^5.11.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "prettier": "1.15.3"
+  },
+  "eslintIgnore": [
+    "coverage/",
+    "tests/",
+    "node_modules/"
+  ],
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true,
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": 80
+      }
+    },
+    "collectCoverageFrom": [
+      "lib/**/*.{js,jsx}"
+    ]
   }
 }
