@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "npm run lint && jest"
+    "test": "jest"
   },
   "repository": "git+ssh://git@github.com/ricardodantas/fortnoxab-api-js-client.git",
   "keywords": [
