@@ -33,7 +33,7 @@
   },
   "eslintIgnore": [
     "coverage/",
-    "tests/",
+    "__tests__/",
     "node_modules/"
   ],
   "jest": {
