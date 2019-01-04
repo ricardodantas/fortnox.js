@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/ricardodantas/fortnoxab-api-js-client#readme",
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.18.0",
+    "dotenv": "^6.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",

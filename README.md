@@ -9,7 +9,18 @@ Unofficial client for the [Fortnox AB API](https://developer.fortnox.se/document
 ***
 
 ## How to use
-...
+
+### Authorization (getting the access token)
+
+```
+fortnoxAbApiJsClient
+  .authorization(authorizationCode, clientSecret)
+  .then(result => console.log(result.data.Authorization.AccessToken))
+  .catch(error => console.log(error.response.data.ErrorInformation));
+```
+### Invoice listing
+
+
 
 ## Resrouces & Actions available (at the moment):
 
