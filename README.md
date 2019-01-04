@@ -10,7 +10,9 @@ Unofficial client for the [Fortnox AB API](https://developer.fortnox.se/document
 
 ## How to use
 
-### Authorization (getting the access token)
+### Authorization (request the Access Token)
+
+*Remember to just use once, otherwise you will get you credentials invalid.*
 
 ```
 fortnoxAbApiJsClient
@@ -18,8 +20,25 @@ fortnoxAbApiJsClient
   .then(result => console.log(result.data.Authorization.AccessToken))
   .catch(error => console.log(error.response.data.ErrorInformation));
 ```
+
 ### Invoice listing
 
+```
+// Promise
+fortnoxAbApiJsClient.invoices
+  .list({
+    accessToken: 'Abcde...',
+    clientSecret: 'Fghij...'
+  })
+  .then(result => console.log(result.data))
+  .catch(error => console.log(error.response));
+
+// Async/Await
+const resultInvoices = await fortnoxAbApiJsClient.invoices.list({
+  accessToken: 'Abcde...',
+  clientSecret: 'Fghij...'
+});
+```
 
 
 ## Resrouces & Actions available (at the moment):
