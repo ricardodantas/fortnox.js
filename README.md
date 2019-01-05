@@ -12,7 +12,7 @@ Unofficial client for the [Fortnox AB API](https://developer.fortnox.se/document
 
 ### Authorization (request the Access Token)
 
-*Remember to just use once, otherwise you will get you credentials invalid.*
+*Remember to just use once, otherwise you will get your credentials invalid.*
 
 ```
 fortnoxAbApiJsClient
