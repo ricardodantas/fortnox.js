@@ -5,7 +5,7 @@
 Unofficial client for the [Fortnox AB API](https://developer.fortnox.se/documentation/).
 
 ***
-    Status: WORK INPROGRESS
+    Status: WORK IN PROGRESS
 ***
 
 ## How to use
@@ -41,7 +41,7 @@ const resultInvoices = await fortnoxAbApiJsClient.invoices.list({
 ```
 
 
-## Resrouces & Actions available (at the moment):
+## Resources & Actions available at the moment:
 
 **IMPORTANT:** All the inputs/parameters should be used according to the official documentation (case sensitive).
 
