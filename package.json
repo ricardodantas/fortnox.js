@@ -6,7 +6,9 @@
   "scripts": {
     "build": "rm -fr ./lib && webpack",
     "lint": "eslint .",
-    "test": "jest"
+    "test": "jest",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": "git+ssh://git@github.com/ricardodantas/fortnoxab-api-js-client.git",
   "keywords": [
@@ -25,7 +27,8 @@
   "homepage": "https://github.com/ricardodantas/fortnoxab-api-js-client#readme",
   "dependencies": {
     "axios": "^0.18.0",
-    "dotenv": "^6.2.0"
+    "dotenv": "^6.2.0",
+    "snyk": "^1.163.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
@@ -70,5 +73,6 @@
     "collectCoverageFrom": [
       "src/**/*.{js}"
     ]
-  }
+  },
+  "snyk": true
 }
