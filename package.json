@@ -28,7 +28,7 @@
   "dependencies": {
     "axios": "^0.18.1",
     "dotenv": "^6.2.0",
-    "snyk": "^1.163.1"
+    "snyk": "^1.420.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
