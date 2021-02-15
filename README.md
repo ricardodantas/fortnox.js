@@ -1,6 +1,7 @@
-[![CircleCI](https://circleci.com/gh/ricardodantas/fortnoxab-api-js-client/tree/master.svg?style=svg)](https://circleci.com/gh/ricardodantas/fortnoxab-api-js-client/tree/master) 
+[![CircleCI](https://circleci.com/gh/ricardodantas/fortnox.js/tree/master.svg?style=svg)](https://circleci.com/gh/ricardodantas/fortnox.js/tree/master)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/d4ddc47dc83edf484816/test_coverage)](https://codeclimate.com/github/ricardodantas/fortnox.js/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/d4ddc47dc83edf484816/maintainability)](https://codeclimate.com/github/ricardodantas/fortnox.js/maintainability)
-[![Known Vulnerabilities](https://snyk.io/test/github/ricardodantas/fortnoxab-api-js-client/badge.svg?targetFile=package.json)](https://snyk.io/test/github/ricardodantas/fortnoxab-api-js-client?targetFile=package.json)
+[![Known Vulnerabilities](https://snyk.io/test/github/ricardodantas/fortnox.js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/ricardodantas/fortnox.js?targetFile=package.json)
 
 
 # Fortnox AB API Client for Javascript
