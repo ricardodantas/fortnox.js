@@ -1,3 +1,9 @@
+
+# ⚠ This repo is no longer mantained, please use https://github.com/obrut/fortnox
+
+
+---
+
 [![CircleCI](https://circleci.com/gh/ricardodantas/fortnox.js/tree/master.svg?style=svg)](https://circleci.com/gh/ricardodantas/fortnox.js/tree/master)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/d4ddc47dc83edf484816/test_coverage)](https://codeclimate.com/github/ricardodantas/fortnox.js/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/d4ddc47dc83edf484816/maintainability)](https://codeclimate.com/github/ricardodantas/fortnox.js/maintainability)
