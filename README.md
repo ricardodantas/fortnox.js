@@ -5,7 +5,7 @@
 
 
 # Fortnox AB API Client for Javascript
-Unofficial [Fortnox AB API](https://developer.fortnox.se/documentation/) client wrapper.
+Unofficial Javascript client wrapper for [Fortnox AB API](https://developer.fortnox.se/documentation/).
 
 ***
     Status: WORK IN PROGRESS
